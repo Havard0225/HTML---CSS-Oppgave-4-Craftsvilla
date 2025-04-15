@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1rem;
+    background-color: #ffcc96;
+}
+header{
+    background-color: #f8aa57;
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+
+
+footer{
+    background-color: #f8aa57;
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.intro{
+    background-image:url(./img/art.jpg);
+    background-color: #614a31;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    padding: 0 .5em 2em;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    font-size: 2rem;
+
+}
+
+h1 a{
+    color: #000000;
+}
+
+h2{
+    margin: 1rem;
+}
+
+button{
+    border-radius: 8px;
+    transition: transform 250ms;
+    cursor: pointer;
+    padding:.2rem 1rem;
+    margin-left:2rem ;
+}
+
+button :hover{
+    scale: 1.1;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ /*------------
+  nav bar 
+  ------------*/
+
+
+li{
+    margin: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+}
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f7ff;
+    font-weight: 700;
+    padding: .25em 0;
+    transition: 250ms;
+
+}
+
+nav a:hover,
+nav a:focus {
+    color: #000000;
+    scale: 1.5;
+}
+
+.current-page {
+    color: #ffcc96;
+}
+.current-page:hover {
+    color: #707070;
+}
+
+
+
+
+
+
+/*------------
+    kursene
+ ----------- */
+
+
+.kurs-kort{
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    background-image: linear-gradient(to right, #FF713B, #FFA51D);
+    margin: 2rem;
+    width: 50% ;
+    
+}
+ 
+.kort-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+/* --------
+   booking
+------------ */
+
+.form{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+input{
+    margin-right: 2rem;
+    margin-left: .25rem;
+}
+
+select{
+    margin-right: 2rem;
+    margin-left: .1rem;
+}
+
+/*------------
+ komentarfelt
+ ------------- */
+textarea { 
+    width: 40%; 
+    height: 60px; 
+}
+#commentForm{
+     margin-top: 1rem;
+}
+#commentText{
+    border: 10px solid #ccc;
+    padding: 10px;
+    margin: 2rem;
+
+    border-radius: 5px; 
+}
+#commentImage{
+    max-width: 100%; 
+    margin: 0 2rem;
+}
+
+
+
+img{
+    width: 50%;
+}
+/* -------------
+Tilbakemeldinger
+----------------- */
+
+.kommentarer{
+    background-color: #efefef;
+    max-width: 1000px;
+    margin: 1rem auto;
+    padding: 1rem;
+}

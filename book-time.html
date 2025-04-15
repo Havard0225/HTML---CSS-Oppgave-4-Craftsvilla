@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsvilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html">CRAFTSVILLA</a></h1>
+        <NAV>
+            <UL>
+                <li><a href="./index.html">Hjem</a></li>
+                <li><a class="current-page" href="./book-time.html">Book time</a></li>
+                <li><a href="./tilbakemeldinger.html">Tilbakemeldinger</a></li>
+            </UL>
+        </NAV>
+    </header>
+    <main>
+        <h2>Book Time Her</h2>
+        <section class="form">
+            <form class="email-collector" action="#" method="POST">
+               <label for="select">kurs</label> <select>
+                    <option value="Mosaikk Kunst">Mosaikk Kunst</option>
+                    <option value="Akvarellmaling">Akvarellmaling</option>
+                    <option value="Lerretsmaling">Lerretsmaling</option>
+                </select>
+                <label for="text">Navn</label><input type="text" required placeholder="Navn">
+                <label for="email">Email</label><input type="email" required  placeholder="email">
+                <label for="number">Antall personer</label><input type="number" min="1" required placeholder="0">
+                <label for="date">Dato</label> <input type="date" required>
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        </section>
+        <section class="kursene">
+            <div class="kurs-kort">
+                    <img src="./img/mosik.jpg" alt="Mosaikk kunst av et hus med natur rundt">
+                    <div class="kort-info">
+                        <h3>Mosaikk Kunst</h3>
+                        <p>Sett inkluderer: Ramme, A4 størrelse treplate, små fargede steiner, gummi.</p>
+                        <p>pris : 400kr</p>
+                    </div>
+                    
+            </div>
+            <div class="kurs-kort">
+                    <img src="./img/vann-maling.jpg" alt="et maleri malet med vann maling av et vann med natur rundt">
+                    <div class="kort-info">
+                        <h3>Akvarellmaling</h3>
+                        <p>Sett inkluderer: Ramme, akvarellpapir med designmal, akvarellfarger, pensler.</p>
+                        <p>pris : 200kr</p>
+                    </div>
+                    
+            </div>
+            <div class="kurs-kort">
+                    <img src="./img/ramme-maling.jpg" alt="en person sett ovenifra som skal male på et lærret">
+                    <div class="kort-info">
+                        <h3>Lerretsmaling</h3>
+                        <p>Sett inkluderer: Ramme, akrylpapir med designmal, akrylfarger, pensler.</p>
+                        <p>pris : 300kr</p>
+                    </div>
+                    
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <h3>Bergen Kunsthall, Rasmus Meyers allé 5, 5015 Bergen</h3>
+        <h3>craftsvilla@gmail.com</h3>
+    </footer>
+</body>
+</html>
