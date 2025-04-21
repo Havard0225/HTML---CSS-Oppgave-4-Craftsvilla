@@ -21,15 +21,25 @@
         <h2>Book Time Her</h2>
         <section class="form">
             <form class="email-collector" action="#" method="POST">
-               <label for="select">kurs</label> <select>
+                <label for="kurs">Kurs</label>
+                <select id="kurs" name="kurs">
                     <option value="Mosaikk Kunst">Mosaikk Kunst</option>
                     <option value="Akvarellmaling">Akvarellmaling</option>
                     <option value="Lerretsmaling">Lerretsmaling</option>
                 </select>
-                <label for="text">Navn</label><input type="text" required placeholder="Navn">
-                <label for="email">Email</label><input type="email" required  placeholder="email">
-                <label for="number">Antall personer</label><input type="number" min="1" required placeholder="0">
-                <label for="date">Dato</label> <input type="date" required>
+            
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="navn" required placeholder="Navn">
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="email">
+            
+                <label for="antall">Antall personer</label>
+                <input type="number" id="antall" name="antall" min="1" required placeholder="0">
+            
+                <label for="dato">Dato</label>
+                <input type="date" id="dato" name="dato" required>
+            
                 <button class="btn btn-primary" type="submit">Register</button>
             </form>
         </section>
@@ -39,7 +49,7 @@
                     <div class="kort-info">
                         <h3>Mosaikk Kunst</h3>
                         <p>Sett inkluderer: Ramme, A4 størrelse treplate, små fargede steiner, gummi.</p>
-                        <p>pris : 400kr</p>
+                        <p>pris : <strong>400kr</strong> </p>
                     </div>
                     
             </div>
@@ -48,7 +58,7 @@
                     <div class="kort-info">
                         <h3>Akvarellmaling</h3>
                         <p>Sett inkluderer: Ramme, akvarellpapir med designmal, akvarellfarger, pensler.</p>
-                        <p>pris : 200kr</p>
+                        <p>pris : <strong>200kr</strong> </p>
                     </div>
                     
             </div>
@@ -57,7 +67,7 @@
                     <div class="kort-info">
                         <h3>Lerretsmaling</h3>
                         <p>Sett inkluderer: Ramme, akrylpapir med designmal, akrylfarger, pensler.</p>
-                        <p>pris : 300kr</p>
+                        <p>pris : <strong>300kr</strong> </p>
                     </div>
                     
             </div>
