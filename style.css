@@ -169,20 +169,28 @@ textarea {
 #commentText{
     border: 10px solid #ccc;
     padding: 10px;
-    margin: 2rem;
-
+    margin: 1rem auto;
     border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #commentImage{
     max-width: 100%; 
-    margin: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#commentBtn{
+    margin: 0 auto;
+    display: flex;
 }
 
 
 
-img{
-    width: 50%;
-}
+
+
 /* -------------
 Tilbakemeldinger
 ----------------- */
@@ -192,4 +200,8 @@ Tilbakemeldinger
     max-width: 1000px;
     margin: 1rem auto;
     padding: 1rem;
+}
+
+img{
+    width: 50%;
 }
